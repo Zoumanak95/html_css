@@ -1,0 +1,26 @@
+
+nav{
+    background-color: rgb(216, 102, 102);
+}
+
+.jumbotron{
+    background-color: white;
+    padding: 3%;
+}
+.conteneur{
+    width: 60%;
+    margin: 0;  
+}
+
+.card{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.menu1{
+    margin-top: 250px;
+}
+.card a{
+    color: tomato;
+    text-decoration: none;
+}
