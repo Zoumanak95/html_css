@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valeur finales</title>
+</head>
+
+<body>
+    <h1>valeurs finales</h1>
+    <h2>examiner le programme suivant :</h2>
+    <pre>
+        var nb1 = prompt("Entrez nb1 :");
+        var nb2 = prompt("Entrez nb2 :");
+        var nb3 = prompt("Entrez nb3 :");
+
+if (nb1 > nb2) {
+    nb1 = nb3 * 2;
+document.write(nb1 + nb2 + nb3)
+}
+else {
+    nb1++;
+    if (nb2 > nb3) {
+        nb1 = nb1 + nb3 * 3;
+        document.write(nb1 + nb2 + nb3)
+    } else {
+        nb1 = 0;
+        nb3 = nb3 * 2 + nb2;
+        document.write(nb1 + nb2 + nb3)
+    }
+
+};
+    </pre>
+
+    <h2>Avant de l'exécuter , tentez de prévoir leurs valeurs finales des varibles nb1, nb2 ,nb3 en foncion de leurs
+        valeurs initiales et completez le tableu ci-dessous.</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Valeurs initiales</th>
+                    <th>Valeurs finales</th>
+                    <th>Valeurs finales</th>
+                    <th>Valeurs finales</th>                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>nb1 = nb2 =nb3 = 4</td>
+                    <td>0</td>
+                    <td>4</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>nb1 = 4, nb2 = 3, nb3 = 2</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>nb1 = 2, nb2 = 4, nb3 = 0</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    <script src="09_valeur.js"></script>
+</body>
+
+</html>
