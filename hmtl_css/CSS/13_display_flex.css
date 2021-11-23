@@ -1,0 +1,30 @@
+.contenair1, .contenair2{
+    border: 2px solid gray;
+    margin: 20px;
+    display: flex;
+}
+
+.contenair1{
+    justify-content: space-around;
+}
+
+.contenair2{
+    flex-direction:column-reverse;
+}
+
+.flex{
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+    background-color: rgb(88, 88, 88);
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center; /*center verticalement*/
+    align-items: center; /*center horizontalement*/
+}
+
+.marquee{
+    background-color: aqua;
+}
+

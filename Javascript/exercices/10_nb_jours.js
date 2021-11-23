@@ -1,22 +1,11 @@
-var nbmois = prompt("Numéro du mois");
+var mois = parseInt(prompt("Quel mois choisissez_vous", "saisir un chiffre entre 1 et 12"));
 
-var janvier = 1
-var fevrier = 2
-var mars = 3
-var avril = 4
-var mai = 5
-var juin = 6
-var juillet = 7
-var aout = 8
-var septembre = 9
-var octobre = 10
-var novembre = 11
-var decembre = 12;
-
-if ( nbmois = 1){
-    document.write( "31 jours")
-    } else if ( nbmois = 2){
-        document.write("28 jours")
-    } else if ( nbmois = 3){
-        document.write("30 jours")
+if(mois === 2){
+    document.write("28 jours")
+}else if ((mois === 4) || (mois === 6) || ( mois === 9 ) || (mois === 11)) {
+    document.write("30 jours")
+}else if ((mois === 1) || (mois === 3) || ( mois === 5 ) || (mois === 7) || (mois === 8) || (mois === 10) (mois === 12)) {
+    document.write("31 jours");
+    }else{
+        document.write("pas dedans")
     }
