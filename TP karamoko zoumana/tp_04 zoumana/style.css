@@ -1,0 +1,203 @@
+body {
+    font-family: sans-serif;
+    color: #373536;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+
+}
+
+/* -----------------------------Head------------------------------*/
+.head {
+    display: flex;
+    background-color: #555;
+    color: #fff;
+    justify-content: space-evenly;
+    font-size: 14px;
+    padding: 5px 0;
+}
+.bandeau {
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 27px;
+}
+
+.logo-droite , .logo-haut{
+    display: flex;
+}
+nav {
+    background: linear-gradient(#ffffff, #ededed);
+    border-top: 1px solid #e6e6e6;
+}
+
+.nav-haut{
+    display: flex;
+    list-style: none;
+    justify-content: center
+}
+
+.nav-haut li a {
+    border-right: 1px solid #e6e6e6;
+    padding: 41px;
+    text-decoration: none;
+    color: black;
+}
+
+/*-------------------------------- milieux--------------------------------*/
+
+.milieu {
+    width: 1080px;
+    margin: 0 auto;
+        margin-top: 0px;
+    display: flex;
+    margin-top: 28px;
+}
+
+.carrelage {
+    height: 210px;
+    overflow: hidden;
+    width: 300px;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.carrelage img {
+    width: 100%;
+    margin-left: 28px;
+}
+.carrelage-milieu {
+    position: absolute;
+    bottom: 0px;
+    background-color: #f62775;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+    margin-left: 28px;
+    width: 272px;
+}
+
+.parquet {
+    height: 210px;
+    overflow: hidden;
+    width: 300px;
+    position: relative;
+}
+.parquet img{
+    margin-left: 27px;
+    width: 100%;
+}
+
+.icons {
+    width: 1080px;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 15px;
+}
+.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2 .flex-row {
+    margin-right: 58px;
+}
+
+main {
+    width: 1080px;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.titleProduit {
+    margin-bottom: 35px;
+}
+
+.triangle {
+    display: inline;
+    height: 0;
+    width: 0;
+    border-right: 22px solid transparent;
+    border-bottom: 50px solid #f62775;
+    position: relative;
+    bottom: 26px;
+}
+
+.produit-row1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.ciment {
+    width: 269px;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+}
+
+.ciment-img {
+    height: 170px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.titleProduit h3 {
+    background-color: #f62775;
+    display: inline;
+    padding: 10px 20px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.titleEshop h3 {
+    background-color: #f62775;
+    padding: 10px 20px;
+    color: #fff;
+    width: 130px;
+    text-align: center;
+}
+
+/*--------------------fin------------------------------ */
+
+.horraire{
+    margin-left: 22em;
+    margin-top: -228px;
+}
+
+.qui{
+    margin-top: -19em;
+    margin-left: 50em;
+}
+ 
+.maps{
+    display: flex;
+}
+
+.eshop{
+    background-color: gainsboro;
+}
+
+.section2{
+    background-color: gray;
+    color: white;
+    display: flex;
+    padding: 6em;
+}
+
+
+.sommes, .hor{
+    width: 26em;
+    margin-left: 10em;
+}
+
+
